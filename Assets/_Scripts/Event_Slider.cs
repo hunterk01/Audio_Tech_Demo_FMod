@@ -10,23 +10,41 @@ public class Event_Slider : MonoBehaviour
     public string eventName;
     public string parameterName;
 
-    FMOD.Studio.EventDescription _event;
-    FMOD.Studio.PARAMETER_DESCRIPTION _param;
+    private FMOD.Studio.EventInstance eventInstance;
+    private FMOD.Studio.ParameterInstance paramInstance;
 
     public Slider slider;
+    public Button startButton;
+    public Button stopButton;
+
+    float test;
 
     void Start()
     {
         slider = GetComponent<Slider>();
-        FMODUnity.RuntimeManager.StudioSystem.getEvent(eventName, out _event);
-        _event.getParameter(parameterName, out _param);
+        eventInstance = FMODUnity.RuntimeManager.CreateInstance(eventName);
+        eventInstance.getParameter(parameterName, out paramInstance);
+
+        Button startBtn = startButton.GetComponent<Button>();
+        Button stopBtn = stopButton.GetComponent<Button>();
+        startBtn.onClick.AddListener(SoundOnClick);
+        stopBtn.onClick.AddListener(StopOnClick);
     }
 
     void Update()
     {
-        //paramInst.setValue(slider.value);
-        _param.defaultValue = slider.value;
+        paramInstance.setValue(slider.value);
 
         UnityEngine.Debug.Log("Slider value: " + slider.value);
+    }
+
+    void SoundOnClick()
+    {
+        eventInstance.start();
+    }
+
+    void StopOnClick()
+    {
+        eventInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
     }
 }

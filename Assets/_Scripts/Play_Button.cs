@@ -11,12 +11,15 @@ public class Play_Button : MonoBehaviour
 
     FMOD.Studio.EventInstance eventInst;
 
-    public Button button;
+    public Button startButton;
+    public Button stopButton;
 
     void Start()
     {
-        Button btn = button.GetComponent<Button>();
-        btn.onClick.AddListener(SoundOnClick);
+        Button startBtn = startButton.GetComponent<Button>();
+        Button stopBtn = startButton.GetComponent<Button>();
+        startBtn.onClick.AddListener(SoundOnClick);
+        stopBtn.onClick.AddListener(StopOnClick);
 
         eventInst = FMODUnity.RuntimeManager.CreateInstance(eventName);
     }
@@ -24,5 +27,10 @@ public class Play_Button : MonoBehaviour
     void SoundOnClick()
     {
         eventInst.start();
+    }
+
+    void StopOnClick()
+    {
+        eventInst.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
     }
 }

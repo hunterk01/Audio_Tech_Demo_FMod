@@ -25,13 +25,27 @@
 [LOG] Thread::callback                         : * FMOD Studio bank load thread started
 [LOG] Manager::readBank                        : fileversion = 80, compatVersion = 70 (oldest = 44, newest = 80)
 [LOG] Manager::readBank                        : fileversion = 80, compatVersion = 70 (oldest = 44, newest = 80)
-[LOG] Manager::readBank                        : fileversion = 80, compatVersion = 70 (oldest = 44, newest = 80)
-[LOG] Manager::readBank                        : fileversion = 80, compatVersion = 70 (oldest = 44, newest = 80)
-[LOG] Manager::readBank                        : fileversion = 80, compatVersion = 70 (oldest = 44, newest = 80)
-[LOG] Manager::readBank                        : fileversion = 80, compatVersion = 70 (oldest = 44, newest = 80)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SoundI::release                          :  (0000000016E4CD88)
+[LOG] SoundI::release                          : release subsounds. (0000000016E4CD88)
+[LOG] SoundI::release                          :     ExplosionLarge (0000000025DC84B8)
+[LOG] SoundI::release                          : release codec. (0000000016E4CD88)
+[LOG] SoundI::release                          :  (0000000016E4C378)
+[LOG] SoundI::release                          : release subsounds. (0000000016E4C378)
+[LOG] SoundI::release                          :     SFX_DoorClose (0000000025DC8008)
+[LOG] SoundI::release                          : release codec. (0000000016E4C378)
+[LOG] SoundI::release                          :  (0000000016E4C4E8)
+[LOG] SoundI::release                          : release subsounds. (0000000016E4C4E8)
+[LOG] SoundI::release                          :     inconceivable (0000000025DC8E18)
+[LOG] SoundI::release                          : release codec. (0000000016E4C4E8)
+[LOG] SoundI::release                          :  (0000000016E4C7C8)
+[LOG] SoundI::release                          : release subsounds. (0000000016E4C7C8)
+[LOG] SoundI::release                          :     SFX_MachineGunBurst (0000000025DC8C88)
+[LOG] SoundI::release                          : release codec. (0000000016E4C7C8)
+[LOG] Thread::callback                         : * FMOD Studio update thread finished
+[LOG] Thread::close                            : FMOD Studio update thread thread destroyed
 [LOG] Thread::callback                         : * FMOD Studio bank load thread finished
 [LOG] Thread::close                            : FMOD Studio bank load thread thread destroyed
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] Thread::callback                         : * FMOD Studio sample load thread finished
 [LOG] Thread::close                            : FMOD Studio sample load thread thread destroyed
 [LOG] LiveUpdate::release                      : 
@@ -50,4 +64,8 @@
 [LOG] SystemI::close                           : Free channel pool.
 [LOG] SystemI::close                           : done.
 
-[LOG] System::create                           : Header version = 1.08.14. Current version = 1.08.14.
+[LOG] Manager::readBank                        : fileversion = 80, compatVersion = 70 (oldest = 44, newest = 80)
+[LOG] Manager::readBank                        : fileversion = 80, compatVersion = 70 (oldest = 44, newest = 80)
+[LOG] Manager::readBank                        : fileversion = 80, compatVersion = 70 (oldest = 44, newest = 80)
+[LOG] Manager::readBank                        : fileversion = 80, compatVersion = 70 (oldest = 44, newest = 80)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
