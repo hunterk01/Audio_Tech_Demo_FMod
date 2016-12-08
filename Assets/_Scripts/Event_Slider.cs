@@ -8,21 +8,25 @@ public class Event_Slider : MonoBehaviour
 {
     [FMODUnity.EventRef]
     public string eventName;
+    public string parameterName;
 
-    FMOD.Studio.EventInstance eventInst;
-    //FMOD.Studio.ParameterInstance paramInst;
+    FMOD.Studio.EventDescription _event;
+    FMOD.Studio.PARAMETER_DESCRIPTION _param;
 
     public Slider slider;
 
     void Start()
     {
         slider = GetComponent<Slider>();
-        eventInst = FMODUnity.RuntimeManager.CreateInstance(eventName);
-        //paramInst = FMODUnity.RuntimeManager.CreateInstance(parameterName);
+        FMODUnity.RuntimeManager.StudioSystem.getEvent(eventName, out _event);
+        _event.getParameter(parameterName, out _param);
     }
 
     void Update()
     {
-        eventInst.setParameterValue("Intensity", slider.value);
+        //paramInst.setValue(slider.value);
+        _param.defaultValue = slider.value;
+
+        UnityEngine.Debug.Log("Slider value: " + slider.value);
     }
 }
