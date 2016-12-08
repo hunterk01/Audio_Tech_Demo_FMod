@@ -4,7 +4,7 @@ using System.Collections;
 using FMOD;
 using FMODUnity;
 
-public class Event_Slider : MonoBehaviour
+public class EventControlBack : MonoBehaviour
 {
     [FMODUnity.EventRef]
     public string eventName;
