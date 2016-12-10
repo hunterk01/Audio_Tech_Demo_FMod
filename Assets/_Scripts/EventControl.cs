@@ -35,7 +35,7 @@ public class EventControl : MonoBehaviour
     {
         paramInstance.setValue(slider.value);
 
-        UnityEngine.Debug.Log("Slider value: " + slider.value);
+        //UnityEngine.Debug.Log("Slider value: " + slider.value);
     }
 
     void SoundOnClick()
@@ -46,5 +46,6 @@ public class EventControl : MonoBehaviour
     void StopOnClick()
     {
         eventInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        slider.value = 0;
     }
 }
