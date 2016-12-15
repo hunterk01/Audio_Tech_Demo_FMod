@@ -283,7 +283,7 @@ Material:
       second: {r: 1, g: 1, b: 0, a: 0}
     - first:
         name: _ReflectionColor
-      second: {r: 0.44356093, g: 0.48217583, b: 0.5154223, a: 0.4862745}
+      second: {r: 0.4435608, g: 0.48217577, b: 0.5154223, a: 0.4862745}
     - first:
         name: _ReflectionTex_ST
       second: {r: 1, g: 1, b: 0, a: 0}
@@ -316,7 +316,7 @@ Material:
       second: {r: 1, g: 1, b: 0.1, a: 0.1}
     - first:
         name: _SpecularColor
-      second: {r: 0.99999994, g: 0.99999994, b: 0.99999994, a: 1}
+      second: {r: 1, g: 1, b: 1, a: 1}
     - first:
         name: _UnderwaterColor
       second: {r: 0.6950323, g: 0.89552236, b: 0.7502397, a: 1}

@@ -2562,6 +2562,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 4b4cdb55dada4b84290580ec632b39b0, type: 2}
   m_PrefabInternal: {fileID: 38080180}
+--- !u!1 &44348254 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 863168456}
+--- !u!114 &44348258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 44348254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &45732363
 Prefab:
   m_ObjectHideFlags: 0
@@ -3244,6 +3270,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 4fc13c77ac16e204d961d1f47541e29c, type: 2}
   m_PrefabInternal: {fileID: 60958912}
+--- !u!1 &62941918 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 1103718869}
+--- !u!114 &62941922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 62941918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch (3)
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &66021588
 Prefab:
   m_ObjectHideFlags: 0
@@ -3791,6 +3843,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 952a93a9712cdd94181dad00edf409ba, type: 2}
   m_PrefabInternal: {fileID: 84634507}
+--- !u!1 &86677231 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 2139812644}
+--- !u!114 &86677235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 86677231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &86809596 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 3ccf2bc3f937d3649a1d2b0aeb03ba51, type: 2}
@@ -5304,6 +5382,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: f8c4dfd0234dcd1479f34df46631187e, type: 2}
   m_PrefabInternal: {fileID: 131863750}
+--- !u!1 &132785157 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 33496478}
+--- !u!114 &132785161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 132785157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch (3)
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &137764217 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400008, guid: a2ee3a78d0b205f40a3fe9f728e70ba3, type: 2}
@@ -5450,6 +5554,58 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: ddfd4e07d34580a4e89ee5d0f094307d, type: 2}
   m_PrefabInternal: {fileID: 141974231}
+--- !u!1 &142953526 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 337038620}
+--- !u!114 &142953530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 142953526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &145037363 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 533133752}
+--- !u!114 &145037367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 145037363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &147552160
 Prefab:
   m_ObjectHideFlags: 0
@@ -5508,6 +5664,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 6e2eab48a2a561b4fa3c068ad21b25fe, type: 2}
   m_PrefabInternal: {fileID: 147552160}
+--- !u!1 &148985278 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 49807b7f8bf295e45a441f086be26404, type: 2}
+  m_PrefabInternal: {fileID: 2107566505}
+--- !u!114 &148985279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 148985278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/ShoreWaves
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &149715169
 Prefab:
   m_ObjectHideFlags: 0
@@ -6523,7 +6705,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &190997539
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11174,6 +11356,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 2}
   m_PrefabInternal: {fileID: 353294877}
+--- !u!1 &356481435 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 1041470548}
+--- !u!114 &356481439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 356481435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch (3)
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &361433162
 Prefab:
   m_ObjectHideFlags: 0
@@ -17700,6 +17908,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ListenerNumber: 0
+--- !u!114 &563526750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563526735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Breeze
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &563743959
 Prefab:
   m_ObjectHideFlags: 0
@@ -22144,6 +22374,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 7b254f559af8e2a4a8926fde2063b21e, type: 2}
   m_PrefabInternal: {fileID: 723882721}
+--- !u!1 &724983729 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 1896421741}
+--- !u!114 &724983733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 724983729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch (2)
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &727023408 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400010, guid: 2af98167059b156448280a0f6b0973f9, type: 2}
@@ -22500,6 +22756,32 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b4cdb55dada4b84290580ec632b39b0, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &737073596 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 931334577}
+--- !u!114 &737073600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 737073596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &741356070
 Prefab:
   m_ObjectHideFlags: 0
@@ -24727,6 +25009,32 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b544816461f324e56a39767fdeb5b114, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &782883841 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 890518648}
+--- !u!114 &782883845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 782883841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch (2)
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &783485661
 Prefab:
   m_ObjectHideFlags: 0
@@ -24909,6 +25217,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 4b4cdb55dada4b84290580ec632b39b0, type: 2}
   m_PrefabInternal: {fileID: 787257355}
+--- !u!1 &788249035 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 2}
+  m_PrefabInternal: {fileID: 1169650446}
+--- !u!114 &788249037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 788249035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &788743140
 Prefab:
   m_ObjectHideFlags: 0
@@ -29924,6 +30258,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: b6286938954000e4bad9aeb93ef3ca30, type: 2}
   m_PrefabInternal: {fileID: 957821026}
+--- !u!1 &958408061 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 1180150583}
+--- !u!114 &958408065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 958408061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch (3)
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &958930641
 Prefab:
   m_ObjectHideFlags: 0
@@ -30194,6 +30554,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: e62e5e32ee4a54b4585ea4d89f069356, type: 2}
   m_PrefabInternal: {fileID: 963951105}
+--- !u!1 &966771162 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 543014784}
+--- !u!114 &966771166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 966771162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch (3)
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &966826252
 Prefab:
   m_ObjectHideFlags: 0
@@ -34235,6 +34621,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 4b4cdb55dada4b84290580ec632b39b0, type: 2}
   m_PrefabInternal: {fileID: 1091771632}
+--- !u!1 &1093050711 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 2}
+  m_PrefabInternal: {fileID: 1193349041}
+--- !u!114 &1093050716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1093050711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch (2)
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1094074603
 Prefab:
   m_ObjectHideFlags: 0
@@ -40780,6 +41192,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: b6286938954000e4bad9aeb93ef3ca30, type: 2}
   m_PrefabInternal: {fileID: 1332605277}
+--- !u!1 &1334324101 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 261106251}
+--- !u!114 &1334324105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1334324101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch (2)
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1335043394
 Prefab:
   m_ObjectHideFlags: 0
@@ -43282,6 +43720,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 2}
   m_PrefabInternal: {fileID: 1433480761}
+--- !u!1 &1435323952 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 1459830788}
+--- !u!114 &1435323956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1435323952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch (2)
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1435350146
 Prefab:
   m_ObjectHideFlags: 0
@@ -45135,8 +45599,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1479652169}
-  m_LocalRotation: {x: 0, y: 0.9761067, z: 0, w: 0.21729173}
-  m_LocalPosition: {x: -31.3, y: -2.6459942, z: 50.92}
+  m_LocalRotation: {x: 0.02154561, y: 0.17840382, z: 0.0039075473, w: -0.9837137}
+  m_LocalPosition: {x: 20.808277, y: -3.1765776, z: -39.13537}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -48989,8 +49453,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1624390208}
-  m_LocalRotation: {x: 0, y: 0.9761067, z: 0, w: 0.21729173}
-  m_LocalPosition: {x: -31.3, y: -2.6459942, z: 50.92}
+  m_LocalRotation: {x: -0.00014153111, y: 0.97288555, z: 0.23128633, w: 0.00059483375}
+  m_LocalPosition: {x: -13.004727, y: -2.827002, z: 68.72885}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -56265,6 +56729,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 026ea33b03be2b54d8bde75df6ca0bb1, type: 2}
   m_PrefabInternal: {fileID: 1903595255}
+--- !u!1 &1903630413 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 2}
+  m_PrefabInternal: {fileID: 764986706}
+--- !u!114 &1903630414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1903630413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/TavernNoise
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1903753321
 Prefab:
   m_ObjectHideFlags: 0
@@ -59218,6 +59708,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 3ccf2bc3f937d3649a1d2b0aeb03ba51, type: 2}
   m_PrefabInternal: {fileID: 2003979199}
+--- !u!1 &2004288777 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 2}
+  m_PrefabInternal: {fileID: 1449735227}
+--- !u!114 &2004288781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2004288777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Torch (2)
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &2004811255
 Prefab:
   m_ObjectHideFlags: 0
