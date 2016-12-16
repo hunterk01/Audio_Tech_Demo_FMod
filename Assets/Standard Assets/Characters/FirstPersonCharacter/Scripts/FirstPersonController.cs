@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
+using FMOD;
+using FMODUnity;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -42,6 +44,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+        private FMOD.Studio.EventInstance eventFootstep;
+        private FMOD.Studio.EventInstance eventJump;
+        private FMOD.Studio.EventInstance eventLand;
+        private FMOD.ATTRIBUTES_3D attributes;
+
+        public GameObject worldControl;
 
         // Use this for initialization
         private void Start()
@@ -57,6 +65,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+
+            eventFootstep = FMODUnity.RuntimeManager.CreateInstance("event:/FootstepWood");
+            eventJump = FMODUnity.RuntimeManager.CreateInstance("event:/Jump");
+            eventLand = FMODUnity.RuntimeManager.CreateInstance("event:/Land");
         }
 
 
@@ -83,6 +95,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+            // Update FMOD event 3D attributes position
+            attributes.position.x = transform.position.x;
+            attributes.position.y = transform.position.y;
+            attributes.position.z = transform.position.z;
+            eventFootstep.set3DAttributes(attributes);
+            eventJump.set3DAttributes(attributes);
+            eventLand.set3DAttributes(attributes);
         }
 
 
@@ -90,7 +110,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             m_AudioSource.clip = m_LandSound;
             m_AudioSource.Play();
+
+            // Play FMOD landing sound
+            eventLand.start();
+
             m_NextStep = m_StepCycle + .5f;
+
+
         }
 
 
@@ -138,6 +164,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             m_AudioSource.clip = m_JumpSound;
             m_AudioSource.Play();
+
+            // Play FMOD jump sound
+            eventJump.start();
         }
 
 
@@ -174,6 +203,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
             // move picked sound to index 0 so it's not picked next time
             m_FootstepSounds[n] = m_FootstepSounds[0];
             m_FootstepSounds[0] = m_AudioSource.clip;
+
+            // Play FMOD footstep sound
+            eventFootstep.start();
         }
 
 
